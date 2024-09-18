@@ -1,9 +1,0 @@
-pluginManagement {
-  repositories {
-      gradlePluginPortal()
-      maven { url = 'https://maven.vaadin.com/vaadin-prereleases' }
-  }
-  plugins {
-    id 'com.vaadin' version "${vaadinVersion}"
-  }
-}
